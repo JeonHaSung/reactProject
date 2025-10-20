@@ -74,8 +74,30 @@
 
 - **Kakao Map API** – 사용자의 위치 기반으로 주변 편의점 위치를 시각화함
 
-# 프로젝트
+# Flow와 UI 기능동작
 
-### Home
+# Home
 
-![팀 대표 이미지](https://github.com/JeonHaSung/reactProject/assets/12345678/main-banner.png)
+<img src="assets/Home.png" alt="예시 이미지" width="500" />
+
+## UI PC
+
+![설명 텍스트](assets/Home1.png)
+
+## UI 모바일
+
+<img src="assets/Home3.png" alt="예시 이미지" width="300" />
+
+# Redux
+
+<div style="background-color:#ffffff; display:inline-block;">
+<img src="assets/Redux1.png" alt="예시 이미지" width="600" />
+</div>
+<img src="assets/Redux2.gif" alt="예시 이미지"
+
+<div style="background-color:#ffffff; display:inline-block;">
+
+# Reviews
+
+<img src="assets/Reviews.png" alt="예시 이미지" width="600" />
+</div>
