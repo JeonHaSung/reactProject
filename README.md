@@ -17,30 +17,26 @@
 
 # 각자 맡은 역할
 
-| 이름 | 역할 |
-
-> |------|------|
-> | **전하성** | 더미 데이터 생성<br>게시판 CRUD<br>무한 스크롤 |
-> | **윤요엘** | 전체 UI/UX 설계<br>SPA 구성 (Router, Lazy, Suspense)<br>마이페이지 구현 |
-> | **김민식** | 외부 API 연동<br>편의점 위치 안내 화면 구현 (Kakao Map API) |
+**전하성** 더미 데이터 생성<br>게시판 CRUD<br>무한 스크롤 |
+**윤요엘** 전체 UI/UX 설계<br>SPA 구성 (Router, Lazy, Suspense)<br>마이페이지 구현 |
+**김민식** 외부 API 연동<br>편의점 위치 안내 화면 구현 (Kakao Map API) |
 
 # 사용한 라이브러리
 
 라이브러리
 "axios": "^1.12.2",
 "classnames": "^2.5.1",
+"react-icons": "^5.5.0",
+"react-redux": "^9.2.0",
+"react-router-dom": "^7.9.4",
+"react-virtualized": "^9.22.6",
+"redux": "^5.0.1",
+"redux-devtools-extension": "^2.13.9",
+"sass": "^1.93.2",
+"styled-components": "^6.1.19",
+"web-vitals": "^2.1.0",
 
-    "react-icons": "^5.5.0",
-    "react-redux": "^9.2.0",
-    "react-router-dom": "^7.9.4",
-
-    "react-virtualized": "^9.22.6",
-    "redux": "^5.0.1",
-    "redux-devtools-extension": "^2.13.9",
-    "sass": "^1.93.2",
-    "styled-components": "^6.1.19",
-    "web-vitals": "^2.1.0",
-
-Api : kakaomap
+Api
+kakaomap
 
 # flow + UI(gif 파일이면 더 좋음)
