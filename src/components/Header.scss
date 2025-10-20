@@ -1,0 +1,149 @@
+/* ===== 헤더 전체 ===== */
+.header {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #cecece;
+  padding: 0 60px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* ===== 로고 ===== */
+.logo-img1 {
+  height: 45px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+/* ===== 메뉴 ===== */
+.nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 40vh;
+  height: 100%;
+}
+
+.nav-link {
+  position: relative;
+  flex: 1;
+  text-align: center;
+  color: #3d3d3d;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: transparent;
+  transition: none; /*  색상 전환 없애기 */
+  transition: background-color 0.25s ease;
+}
+
+.nav-link.active {
+  background-color: #8c8c8c;
+  color: #ffffff;
+  transition: background-color 0.25s ease;
+}
+
+.nav-link.active:nth-child(1) {
+  color: #ffffff;
+}
+.nav-link:nth-child(1) {
+  color: #5052cb;
+}
+.nav-link:hover {
+  background-color: #5e5e5e;
+  color: white;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: transparent;
+  transition: background-color 0.25s ease;
+}
+
+.nav-link:hover::after {
+  background-color: #222;
+}
+
+@media (max-width: 650px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1d1d1;
+    height: auto;
+    padding: 20px 0 10px;
+  }
+
+  .logo-img1 {
+    height: 50px;
+    margin-bottom: 15px; /* 로고와 첫 메뉴 간 간격 */
+  }
+  .nav-link:nth-child(1) {
+    color: #4648d8;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 6px;
+  }
+
+  .nav-link {
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    color: #fff;
+    border-radius: 0;
+    transition: filter 0.2s ease;
+  }
+
+  /* 메뉴별 고유 색상 */
+  .nav-link:nth-child(1) {
+    background-color: #4caf50;
+    border-radius: 10px;
+    width: 95%;
+    font-weight: 400;
+  }
+  .nav-link:nth-child(2) {
+    background-color: #528adc; /* 게시판 */
+    border-radius: 10px;
+    width: 95%;
+    font-weight: 400;
+  }
+  .nav-link:nth-child(3) {
+    background-color: #8c4bd6; /* 마이페이지 */
+    border-radius: 10px;
+    width: 95%;
+    font-weight: 400;
+  }
+
+  .nav-link:hover {
+    filter: brightness(1.15);
+  }
+  .nav-link:nth-child(1) {
+    color: #ffffff;
+  }
+
+  .nav-link::after {
+    display: none; /* hover 바 제거 */
+  }
+}
+
+/* @media (max-width: 620px) {
+  .logo-img1 {
+    display: none;
+  }
+} */

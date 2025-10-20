@@ -1,0 +1,106 @@
+.noticeitem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #1c1c1d;
+  border-radius: 0px;
+  color: white;
+  height: 130px;
+  padding: 10px 14px;
+  box-sizing: border-box;
+}
+
+.imagehart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  background-color: #3b3c41;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #6b6b6b;
+  height: 100%;
+  width: 330px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: relative;
+
+  margin-right: 10px;
+}
+
+.hearticon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+}
+
+.ramenimage {
+  width: 75px;
+  height: 75px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.toppingimages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.toppingimage {
+  width: 36px; // ✅ 토핑 크기 동일
+  height: 36px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.review-content {
+  flex: 1;
+  background-color: #222222;
+  border: 1px solid #4e4e4e;
+  border-radius: 8px;
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; // ✅ 텍스트를 세로 중앙정렬
+  height: 100%; // ✅ 부모 높이에 맞춤
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+/* 💬 “후기” 제목 */
+.review-title {
+  font-size: 13px;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+/* 후기 텍스트 */
+.review-text {
+  font-size: 15px;
+  color: #eee;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* stylelint-disable-line property-no-vendor-prefix */
+  -webkit-box-orient: vertical;
+}
+
+.review-content {
+  width: 100%;
+  margin-left: 0;
+}
+
+.a {
+  color: gray;
+}
+
+@media (max-width: 850px) {
+  .imagehart {
+    display: none;
+  }
+}

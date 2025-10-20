@@ -1,0 +1,12 @@
+.main {
+  background-color: rgb(22, 22, 22);
+  min-height: 100vh; // 화면 전체 덮기
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; // 위쪽 정렬
+  padding-top: 40px; // 상단 여백
+
+  @media (max-width: 850px) {
+    padding: 20px; // ✅ 모바일일 때 좌우 여백 생김
+  }
+}

@@ -1,0 +1,7 @@
+.notice-list {
+  width: 100%;
+  height: 80vh; // ✅ 명확한 높이값 (vh 또는 px)
+  overflow: hidden; // AutoSizer 내부 스크롤과 충돌 방지
+  border-radius: 10px;
+  background-color: #1e1e1e; // 필요 시 배경 유지
+}
