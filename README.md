@@ -151,6 +151,8 @@ React.memo와 useCallback을 함께 사용하여, 불필요한 컴포넌트 리�
 
 ---
 
+<br><br><br>
+
 ## 2. Redux 상태 관리 흐름
 
 ### 전역상태로 관리
@@ -173,3 +175,96 @@ Redux를 통해 컴포넌트 간 상태 공유가 쉬워지고,
 #### Redux Flow
 
 ---
+
+<img src="assets/Redux1.png" alt="예시 이미지" width="500" />
+
+### 💻 보기(GIF)
+
+<img src="assets/main.gif" alt="예시 이미지" width="800" />
+
+---
+
+<br><br><br>
+
+## 3. 후기작성 & 근처 편의점 찾기 (Kakao Map API)
+
+### 주요기능
+
+> - 후기작성, 게시판 등록
+> - 좋아요를 눌러서 조합저장
+> - 새로운 리뷰 등록 및 기존 리뷰 수정 기능 포함
+
+> - **KAKAO MAP API 활용하여 근처 편의점 찾기**
+
+## Flow
+
+<img src="assets/review.png" alt="예시 이미지" width="800" />
+
+### 💻 PC 화면 (반응형 UI)(GIF)
+
+<img src="assets/review1.gif" alt="예시 이미지" width="800" />
+
+### 📱 모바일 화면 (반응형 UI)
+
+<img src="assets/reviewm.png" alt="예시 이미지" width="300" />
+
+---
+
+<br><br><br>
+
+## 4. 게시판
+
+> ### 주요기능
+>
+> - 글을 작성 등록 할 수 있습니다.
+> - 좋아요를 눌러 마이페이지에 저장 할 수 있습니다.
+
+## Flow
+
+<img src="assets/Notice.png" alt="예시 이미지" width="800" />
+
+### 💻 PC 화면 (반응형 UI)(GIF)
+
+<img src="assets/notice.gif" alt="예시 이미지" width="800" />
+
+### 📱 모바일 화면 (반응형 UI)
+
+<img src="assets/noticem.png" alt="예시 이미지" width="300" />
+
+---
+
+<br><br><br>
+
+## 5. 마이페이지
+
+> ### 주요기능
+>
+> - 사용자가 작성한 게시글을 모아보고 관리할 수 있는 공간입니다.
+
+## Flow
+
+<img src="assets/Mypage.png" alt="예시 이미지" width="800" />
+
+### 💻 PC 화면 (반응형 UI)(GIF)
+
+<img src="assets/my.gif" alt="예시 이미지" width="800" />
+
+### 📱 모바일 화면 (반응형 UI)
+
+<img src="assets/mym.png" alt="예시 이미지" width="300" />
+
+---
+
+# END
+
+이 프로젝트는 도전적인 아이디어에서 출발해, 단순하면서도 시대의 흐름에 맞는 콘셉트를 담았습니다.
+기술적으로는 사용자 경험을 고려한 편의점 라면 조합 추천 및 리뷰 기능을 중심으로 구성되었으며, Redux 기반의 전역 상태 관리를 통해 유지 보수성과 확장성을 강화했습니다.
+<br><br><br>
+"작은 것이 모여 큰 변화를 만든다."
+<br><br><br>
+
+### Made by
+
+🌐 김민식 &nbsp;&nbsp;|&nbsp;&nbsp; 🧑‍💻 전하성 &nbsp;&nbsp;|&nbsp;&nbsp; 🎨 윤요엘
+
+<br><br><br>
