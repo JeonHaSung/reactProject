@@ -198,7 +198,7 @@ Redux를 통해 컴포넌트 간 상태 공유가 쉬워지고,
 
 ## Flow
 
-<img src="assets/review.png" alt="예시 이미지" width="800" />
+<img src="assets/Review.png" alt="예시 이미지" width="800" />
 
 ### 💻 PC 화면 (반응형 UI)(GIF)
 
